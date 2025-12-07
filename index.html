@@ -1,27 +1,22 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="utf-8">
-  <title>Unmatched Stats Dashboard</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>UNMATCHED — Статистика</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>UNMATCHED — Статистика</h1>
-    <p>Данные загружаются из Google Таблицы</p>
-  </header>
 
-  <section id="controls">
-    <input id="sheetId" placeholder="Вставьте ID Google Таблицы">
-    <button onclick="loadData()">Загрузить данные</button>
-  </section>
+<h1>UNMATCHED — Статистика</h1>
 
-  <section id="content">
-    <h2>Матчи</h2>
-    <table id="matches"></table>
-  </section>
+<p>Данные загружаются из Google Таблицы</p>
 
-  <script src="script.js"></script>
+<input id="sheetIdInput" type="text" placeholder="Вставьте ID таблицы">
+<button id="loadBtn">Загрузить данные</button>
+
+<h2>Матчи</h2>
+<div id="matches"></div>
+
+<script src="script.js"></script>
 </body>
 </html>
