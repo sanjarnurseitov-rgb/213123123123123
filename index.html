@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>UNMATCHED — Статистика</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>UNMATCHED — Статистика</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <h1>UNMATCHED — Статистика</h1>
 
-<p>Данные загружаются из Google Таблицы</p>
-
-<input id="sheetIdInput" type="text" placeholder="Вставьте ID таблицы">
-<button id="loadBtn">Загрузить данные</button>
+<div class="loader-block">
+  <p>Данные загружаются из Google Таблицы</p>
+  <input id="sheetId" placeholder="Вставь ID Google Sheet">
+  <button id="loadBtn">Загрузить данные</button>
+</div>
 
 <h2>Матчи</h2>
 <div id="matches"></div>
