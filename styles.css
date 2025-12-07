@@ -1,0 +1,11 @@
+body {
+  background:#0d0f17;
+  color:white;
+  font-family:Arial, sans-serif;
+  padding:20px;
+}
+header { margin-bottom:20px; }
+table { width:100%; border-collapse:collapse; margin-top:20px; }
+td, th { border:1px solid #444; padding:8px; }
+#controls input { padding:8px; width:300px; }
+#controls button { padding:8px 12px; margin-left:10px; }
